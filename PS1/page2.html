@@ -41,6 +41,10 @@
       margin: 0 auto;
     }
 
+    input[type=radio] {
+
+    }
+
     svg {
       cursor: pointer
     }
@@ -55,10 +59,12 @@
       margin: auto;
       text-align: center;
     }
-    input:invalid{
+
+    input:invalid {
       background: #fdd;
     }
-    textarea{
+
+    textarea {
       resize: vertical;
     }
 
@@ -94,9 +100,9 @@
     </div>
     <div class="control">
       <label>Цвет ваших глаз</label>
-      <label><input type="radio">Голубой</label>
-      <label><input type="radio">Серый</label>
-      <label><input type="radio">Карий</label>
+      <label><input name = "eye" type="radio" value="blue">Голубой</label>
+      <label><input name = "eye" type="radio" value = "grey">Серый</label>
+      <label><input name = "eye" type="radio" value="brown">Карий</label>
     </div>
     <div class="control">
       <label>Ваша последняя домашка на п2п</label>
