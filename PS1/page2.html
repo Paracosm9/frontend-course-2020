@@ -42,7 +42,7 @@
     }
 
     input[type=radio] {
-
+        required:
     }
 
     svg {
@@ -100,13 +100,13 @@
     </div>
     <div class="control">
       <label>Цвет ваших глаз</label>
-      <label><input name = "eye" type="radio" value="blue">Голубой</label>
-      <label><input name = "eye" type="radio" value = "grey">Серый</label>
-      <label><input name = "eye" type="radio" value="brown">Карий</label>
+      <label><input required name = "eye" type="radio" value="blue">Голубой</label>
+      <label><input required name = "eye" type="radio" value = "grey">Серый</label>
+      <label><input required name = "eye" type="radio" value="brown">Карий</label>
     </div>
     <div class="control">
       <label>Ваша последняя домашка на п2п</label>
-      <input type="file">
+      <input type="file" accept="application/zip">
     </div>
     <div class="control">
       <label>Вам понравилось это задание?</label>
